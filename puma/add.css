@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.cart{
+    display: flex;
+    border: 1px solid;
+    width: 95%;
+    margin-left: 30px;
+    margin-top: 10px;
+    /* justify-content: space-around; */
+    align-items: center;
+    border: 1px solid rebeccapurple;
+ 
+    
+}
+
+.p_image{
+    padding: 8px;
+    margin-right: 30px;
+    vertical-align: middle;
+}
+
+.p_name{
+    display: inline-block;
+    font-size:18px ;
+    font-weight: bold;
+    width: 500px;
+}
+
+.p_price{
+    display: inline-block;
+    /* margin-left:140px; */
+    font-size: 18px;
+    font-weight: bold;
+    color: #AC1E1E;
+}
+
+.container{
+    display: flex;
+
+
+}
+.cart_total{
+    /* border: 1px solid black; */
+    width: 150%;
+    margin:20px 0px 0px 20px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.cart_total div{
+    display: flex;
+    justify-content: space-between;
+}
+.price_gst{
+    vertical-align: middle;
+    padding: 5px 0px 0px 30px;
+}
+.promo_code h1{
+    background-color: rgb(221, 230, 234);
+    padding: 20px;
+    font-size: 25px;
+    
+    /* display: flex; */
+    text-align: center;
+    width: 100%;
+
+}
+
+.free_returns p{
+    width: 100%;
+    /* letter-spacing: 1px; */
+    word-spacing: 5px;
+    color: grey;
+    font-weight: bold;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+.checkout{
+    font-size: 30px;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.cart_container{
+    height: 100vh;
+    /* border: 1px solid black; */
+    width:1500px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 5px;
+    font-size: 23px;
+    color: gray;
+}
+.cart_img{
+    height: 250px;
+    width: 250px;
+}
+.p_detail{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-around;
+}
+
+.c_details{
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    justify-content: space-around;
+}
+
+.remove_btn{
+    width: 50px;
+    height: 100px;
+    /* border: none; */
+    /* background-color: #AC1E1E; */
+}
